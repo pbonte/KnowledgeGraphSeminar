@@ -1,0 +1,34 @@
+@prefix ex: <http://ex.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Anzhelika%20Sidorova  rdf:type foaf:Person .
+ex:Anzhelika%20Sidorova  rdf:type foaf:Person.
+ex:Sandi%20Morris             rdf:type foaf:Person.
+ex:Katerina%20Stefanidi     rdf:type foaf:Person.
+ex:Holly%20Bradshaw        rdf:type foaf:Person.
+ex:Alysha%20Newman       rdf:type foaf:Person.
+ex:Angelica%20Bengtsson rdf:type foaf:Person.
+
+ex:Anzhelika%20Sidorova  ex:score "4.95"^^xsd:decimal.
+ex:Sandi%20Morris             ex:score "4.90"^^xsd:decimal.
+ex:Katerina%20Stefanidi     ex:score "4.85"^^xsd:decimal.
+ex:Holly%20Bradshaw        ex:score "4.80"^^xsd:decimal.
+ex:Alysha%20Newman       ex:score "4.80"^^xsd:decimal.
+ex:Angelica%20Bengtsson ex:score "4.80"^^xsd:decimal.
+
+ex:Anzhelika%20Sidorova  foaf:name "Anzhelika Sidorova"@en.
+ex:Sandi%20Morris             foaf:name "Sandi Morris"@en.
+ex:Katerina%20Stefanidi    foaf:name  "Katerina Stefanidi"@en.
+ex:Holly%20Bradshaw        foaf:name "Holly Bradshaw"@en.
+ex:Alysha%20Newman       foaf:name "Alysha Newman"@en.
+ex:Angelica%20Bengtsson foaf:name "Angelica Bengtsson"@en.
+
+ex:Anzhelika%20Sidorova  ex:country <http://ex.com/RU>.
+ex:Sandi%20Morris             ex:country <http://ex.com/US>.
+ex:Katerina%20Stefanidi     ex:country <http://ex.com/EL>.
+ex:Holly%20Bradshaw        ex:country <http://ex.com/UK>.
+ex:Alysha%20Newman       ex:country <http://ex.com/CA>.
+ex:Angelica%20Bengtsson ex:country <http://ex.com/SE>.
+
